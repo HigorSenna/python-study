@@ -54,7 +54,7 @@ Faça:
 funcao(algo[1], {outro: 2})
 funcao(1)
 
-
+[7] - Termine sempre uma instrução com uma nova linha
 
 The Zen of python - import this
 """
@@ -77,7 +77,7 @@ def sum_one():
     pass
 
 
-def soma_two():
+def sum_two():
     pass
 
 
