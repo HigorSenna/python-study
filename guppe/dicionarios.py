@@ -120,7 +120,7 @@ print(dicionario4)
 dicionario5 = {}.fromkeys(['pontos', 'nome', 'email'], 'desconhecido')
 print(dicionario5)
 
-dicionario6 = {}.fromkeys('teste', 'desconhecido') 
+dicionario6 = {}.fromkeys('teste', 'desconhecido')
 print(dicionario6)
 
 # O Metodo fromkeys recebe dois parametros: um iteravel e um valor,
