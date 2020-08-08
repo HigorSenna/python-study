@@ -171,7 +171,7 @@ print(lista_slice1[::2])  # Começa em 0, vai até o final, de 2 em 2
 
 print(lista_slice1[::-1])  # Começa em 0, vai até o final, de traz pra frente
 
-# Soma, Valor Maximo, Valor Minimo -> Apenas se todos os valores fortem numeros inteiros ou reais
+# Soma, Valor Maximo, Valor Minimo -> Apenas se todos os valores forem numeros inteiros ou reais
 
 lista_operacoes = [1, 2, 3, 4, 5, 6, 7]
 print(sum(lista_operacoes))  # Soma todos os elementos
