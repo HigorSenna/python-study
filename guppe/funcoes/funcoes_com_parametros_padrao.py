@@ -1,5 +1,11 @@
 """
 Funcoes com parametros padrao
+
+Ordem de declarção de parâmetros:
+
+ 1 - Parâmetros obrigatorios
+ 2 - Parâmetros default
+
 """
 
 # Default param

@@ -1,5 +1,10 @@
 """
 Funcoes com parâmetro
+
+Ordem de declarção de parâmetros:
+
+ 1 - Parâmetros obrigatorios
+
 """
 
 def obter_nome_completo(nome, sobrenome):

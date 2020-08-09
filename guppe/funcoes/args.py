@@ -13,6 +13,12 @@ Entendendo o *args
  Por convenção, adotamos sempre *args para defini-lo
 
  - O parametro *args coloca os valores extras informados como entrada em uma TUPLA
+
+Ordem de declarção de parâmetros:
+
+ 1 - Parâmetros obrigatorios
+ 2 - *args
+
 """
 
 
