@@ -21,7 +21,8 @@ Metodo statico (@staticmethod) -> Nao usa nada da classe e nem do objeto
 
 
 class Usuario:
-    def __init__(self, nome, email):
+
+    def __init__(self, nome='', email=''):
         self.nome = nome
         self.__email = email
 
@@ -39,6 +40,7 @@ class Produto:
         self.nome = nome
         self.__valor = valor
         Produto.contador = self.__id
+        self.usuario: Usuario = Usuario()
 
     @property
     def valor(self):
@@ -55,6 +57,7 @@ produto = Produto('PS5', 6000)
 msg = f'O Produto: {produto.nome} sai de: {produto.valor} por {produto.aplicar_desconto(30)}'
 print(msg)
 print(Produto.aplicar_desconto(produto, 20))  # Outra forma de chamar métodos de instancia
+print(f'Nome do usuario do produto: {produto.usuario.nome}')
 
 
 # Criptografando
